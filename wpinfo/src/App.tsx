@@ -7,8 +7,8 @@ const MENOS = `➖`
 
 function App() {
 
-  const UNIT_VAL = 0.15
-  const QUANTITY_MIN = 10
+  const UNIT_VAL = 15
+  const QUANTITY_MIN = 1
 
   const [quantity, setQuantity] = useState(QUANTITY_MIN)
   const [total, setTotal] = useState(0)
@@ -24,7 +24,7 @@ function App() {
         <img src={wplogo} className="logo" alt="React logo" />
       </div>
       <div className='card'>
-       <div style={{fontSize: 24, fontWeight: 'bold'}}> 10 cotas por R$ {UNIT_VAL}</div>
+        <div style={{ fontSize: 24, fontWeight: 'bold' }}>{ QUANTITY_MIN > 1 ? `${QUANTITY_MIN} cotas por R$ ${UNIT_VAL}` : `Uma cota por R$ ${UNIT_VAL} `}</div>
       </div>
       <div className='card'>
         <button className='plus' onClick={() => setQuantity((count) => count + 2)}>{PLUS}2</button>
