@@ -24,19 +24,22 @@ function App() {
         <img src={wplogo} className="logo" alt="React logo" />
       </div>
       <div className='card'>
+       <div style={{fontSize: 24, fontWeight: 'bold'}}> 10 cotas por R$ {UNIT_VAL}</div>
+      </div>
+      <div className='card'>
         <button className='plus' onClick={() => setQuantity((count) => count + 2)}>{PLUS}2</button>
         <button className='plus' onClick={() => setQuantity((count) => count + 5)}>{PLUS}5</button>
       </div>
       <div className='card'>
         <button className='plus' onClick={() => setQuantity((count) => count + 10)}>{PLUS}10</button>
-        </div>
+      </div>
       <div className="card">
-        <button disabled={quantity <= QUANTITY_MIN} onClick={() => setQuantity((count) => count - 1)}>{MENOS}</button>
+        <button className='plus1' disabled={quantity <= QUANTITY_MIN} onClick={() => setQuantity((count) => count - 1)}>{MENOS}</button>
         <div className='quantity'>{quantity}</div>
-        <button onClick={() => setQuantity((count) => count + 1)}>{PLUS}</button>
+        <button className='plus1' onClick={() => setQuantity((count) => count + 1)}>{PLUS}</button>
       </div>
       <div className='card'>
-        <div className='quantity'>
+        <div className='total quantity'>
           {`R$ ${total}`}
         </div>
       </div>
