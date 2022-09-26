@@ -6,36 +6,67 @@
 }
 
 .logo {
-  height: 6em;
+  height: 10em;
   padding: 1.5em;
   will-change: filter;
 }
+
 .logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
 @keyframes logo-spin {
-  from {
+  0% {
     transform: rotate(0deg);
   }
-  to {
+  50% {
+    transform: rotate(360deg);
+  }
+  100% {
     transform: rotate(360deg);
   }
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+  .logo {
+    animation: logo-spin infinite 2s ease-in-out;
   }
 }
 
 .card {
-  padding: 2em;
+  padding: 1em;
+  display: flex;
+  flex-direction: row;
+  width: 20rem;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .read-the-docs {
   color: #888;
+}
+
+.quantity {
+  /* border: solid 1px darkgray; */
+  /* background-color: black; */
+  border-radius: 10px;
+  padding: 10px;
+  filter: drop-shadow(0px 0px 5px navy );
+
+  font-size: 38px;
+  font-weight: bold;
+  /* color: blue; */
+}
+
+.App {
+  padding: 2rem;
+  border: solid 1px;
+  border-radius: 1rem;
+}
+
+.plus {
+  width: 150px;
+  height: 100px;
+  font-size: 38px;
+  font-weight: bold;
 }
