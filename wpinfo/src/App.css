@@ -20,9 +20,11 @@
   0% {
     transform: rotate(0deg);
   }
+
   50% {
     transform: rotate(360deg);
   }
+
   100% {
     transform: rotate(360deg);
   }
@@ -55,7 +57,7 @@
   /* filter: drop-shadow(0px 0px 5px navy ); */
   font-size: 46px;
   font-weight: bold;
-  text-shadow: 2px 2px 10px navy ;
+  text-shadow: 2px 2px 10px navy;
   /* drop-shadow: 5px 5px 10px rgba(214, 29, 0, 0.137); */
 }
 
@@ -79,17 +81,17 @@
   border-radius: 50%;
   font-size: 18px;
   font-weight: bold;
-  box-shadow: 5px 5px 10px rgba(21, 166, 8, 0.551);
+  /* box-shadow: 5px 5px 10px rgba(21, 166, 8, 0.551); */
   background-color: rgb(5, 0, 141);
 
 }
 
-.total  {
+.total {
   text-shadow: 0 0 5px red;
 
 }
 
-.content{
+.content {
   background-color: rgb(245, 245, 247);
   border-radius: 20px;
   margin: 25px;

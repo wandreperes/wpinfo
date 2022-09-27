@@ -37,15 +37,15 @@ function App() {
         </div>
         <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', padding: 15, marginBottom: 10 }}>
           <button className='plus1' disabled={quantity <= QUANTITY_MIN} onClick={() => setQuantity((count) => count - 1)}>{MENOS}</button>
-          <div style={{ padding: 10, fontSize: 38, fontWeight: 'bold', color: 'black',  justifyContent: 'center', alignItems: 'center' }}>{quantity}</div>
+          <div style={{ padding: 10, fontSize: 38, fontWeight: 'bold', color: 'black', justifyContent: 'center', alignItems: 'center' }}>{quantity}</div>
           <button className='plus1' onClick={() => setQuantity((count) => count + 1)}>{PLUS}</button>
         </div>
-        <div style={{ padding: 10, fontSize: 38, fontWeight: 'bold', color: 'darkgreen',  justifyContent: 'center', alignItems: 'center' }}>
-         {`Total R$ ${total}`}
+        <div style={{ padding: 10, fontSize: 38, fontWeight: 'bold', color: 'darkgreen', justifyContent: 'center', alignItems: 'center' }}>
+          {`Total R$ ${total}`}
         </div>
         <button style={{ fontSize: 24, fontWeight: 'bold', border: 'solid', borderRadius: 20, padding: 10, backgroundColor: 'green', marginBottom: 15 }}>
-        Participar do sorteio
-          </button>
+          Participar do sorteio
+        </button>
       </div>
     </div>
   )
