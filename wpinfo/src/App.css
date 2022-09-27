@@ -72,7 +72,8 @@
 .plus {
   font-size: 38px;
   font-weight: bold;
-  background-color: rgb(5, 0, 141);
+  /* background-color: rgb(5, 0, 141); */
+  background-color: rgb(174, 174, 255);
   border-radius: 50%;
 
 }
@@ -82,7 +83,7 @@
   font-size: 18px;
   font-weight: bold;
   /* box-shadow: 5px 5px 10px rgba(21, 166, 8, 0.551); */
-  background-color: rgb(5, 0, 141);
+  background-color: rgb(174, 174, 255);
 
 }
 
