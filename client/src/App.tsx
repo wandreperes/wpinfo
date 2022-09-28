@@ -23,15 +23,15 @@ const utils = {
   },
 }
 
-utils
-  .soma(20, 50)
-  .then(data => console.log(data))
-  .catch(data => console.log(data))
+// utils
+//   .soma(20, 50)
+//   .then(data => console.log(data))
+//   .catch(data => console.log(data))
 
-utils
-  .subtract(50, 20)
-  .then(data => console.log(data))
-  .catch(data => console.log(data))
+// utils
+//   .subtract(50, 20)
+//   .then(data => console.log(data))
+//   .catch(data => console.log(data))
 
 const valor1: string = '1.121.25'
 const valor2: string = '2.052.39'
