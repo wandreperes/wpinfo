@@ -36,9 +36,9 @@ const utils = {
 const valor1: string = '1.121.25'
 const valor2: string = '2.052.39'
 
-utils
-  .soma(parseFloat(valor1), parseFloat(valor2))
-  .then(data => console.log(data))
+// utils
+//   .soma(parseFloat(valor1), parseFloat(valor2))
+//   .then(data => console.log(data))
 
 // console.log(utils.soma(50, 25))
 
