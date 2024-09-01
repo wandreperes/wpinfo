@@ -18,7 +18,8 @@ export function CopyButton() {
         <span className='inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none'></span>
       </h2>
       <p className='m-0 max-w-[30ch] text-sm opacity-50 flex gap-2 '>
-        <Image src='/whatsapp.png' alt='WhatsApp' width={20} height={20} /> (11) 9 7441-7380
+        <Image src='/whatsapp.png' alt='WhatsApp' height={20} width={20} style={{ width: 'auto' }} /> (11) 9
+        7441-7380
         {hasCopiedText ? <Check /> : <Copy />}
       </p>
     </div>
