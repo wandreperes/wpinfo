@@ -1,1 +1,1 @@
-# wpinfo
+wpinfo
